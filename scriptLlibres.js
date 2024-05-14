@@ -8,7 +8,7 @@ async function getLlibres() {
     console.log(books);
     //Com consultar el total de llibres
     console.log(books.length)
-    //Consulta el lllibre que està a la posició 0
+    //Consulta el llibre que està a la posició 0
     console.log(books[0])
     /* Heu de mostrar les dades d'aquests llibres a la web. Creau un element amb un id i allà introduiu el format html/css que desitgeu. Si voleu emprar les cards
       de la pàgina d'inici feis-ho. Demanau ajuda als companys
