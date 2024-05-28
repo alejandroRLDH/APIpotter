@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encanteri</title>
+    <title>Cases</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scriptLlibres.js"></script>
+    <script src="encanteri.js"></script>
 </head>
 <body>
 <div class="header">
     <h1>Encanteri</h1>
 </div>
+<div class="container">
+    <button role="button" onclick="getSpells()">Agafar dates</button>
+    <p>Per cercar, pulsa CTRL+F.</p>
+</div>
+<table align="center" border="4" id="spellscontainer">
+    <tr>
+        <td id="index">index</td>
+        <td id="nom">nombre</td>
+        <td id="funcion">funcion</td>
+        <td id="index2">index</td>
+    </tr>
+</table>
+<div align="center" id="elemento"></div>
+<a href="index.html">Tornar</a>
 </body>

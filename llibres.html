@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Llibres</title>
+    <title>Cases</title>
     <link rel="stylesheet" href="styles.css">
     <script src="llibres.js"></script>
 </head>
@@ -12,9 +12,22 @@
     <h1>Llibres</h1>
 </div>
 <div class="container">
-    <button role="button" onclick="getLlibres()">Agafar dates</button>
+    <button role="button" onclick="getBooks()">Agafar dates</button>
     <p>Per cercar, pulsa CTRL+F.</p>
 </div>
-<div class="container">
-    <p id="casescontainer"></p>
+<table align="center" border="4" id="libroscontainer">
+    <tr>
+        <td id="index">index</td>
+        <td id="num">número</td>
+        <td id="nom">nombre</td>
+        <td id="nomen">nombre en inglés</td>
+        <td id="date">fecha</td>
+        <td id="resumen">resumen</td>
+        <td id="pag">páginas</td>
+        <td id="cover">imatge</td>
+        <td id="index2">index</td>
+    </tr>
+</table>
+<div align="center" id="elemento"></div>
+<a href="index.html">Tornar</a>
 </body>
